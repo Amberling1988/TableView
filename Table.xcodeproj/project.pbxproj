@@ -16,8 +16,8 @@
 		001437B8180FBBCC0085B817 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 001437B7180FBBCC0085B817 /* Default.png */; };
 		001437BA180FBBCC0085B817 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001437B9180FBBCC0085B817 /* Default@2x.png */; };
 		001437BC180FBBCC0085B817 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001437BB180FBBCC0085B817 /* Default-568h@2x.png */; };
-		001437BF180FBBCC0085B817 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001437BD180FBBCC0085B817 /* MainStoryboard.storyboard */; };
-		001437C2180FBBCC0085B817 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001437C1180FBBCC0085B817 /* TableViewController.m */; };
+		001437CD180FBC370085B817 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001437CB180FBC370085B817 /* TableViewController.m */; };
+		001437CE180FBC370085B817 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001437CC180FBC370085B817 /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		001437B7180FBBCC0085B817 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		001437B9180FBBCC0085B817 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		001437BB180FBBCC0085B817 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		001437BE180FBBCC0085B817 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		001437C0180FBBCC0085B817 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		001437C1180FBBCC0085B817 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		001437CA180FBC370085B817 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		001437CB180FBC370085B817 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		001437CC180FBC370085B817 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 			children = (
 				001437B4180FBBCC0085B817 /* TableAppDelegate.h */,
 				001437B5180FBBCC0085B817 /* TableAppDelegate.m */,
-				001437BD180FBBCC0085B817 /* MainStoryboard.storyboard */,
-				001437C0180FBBCC0085B817 /* TableViewController.h */,
-				001437C1180FBBCC0085B817 /* TableViewController.m */,
+				001437CA180FBC370085B817 /* TableViewController.h */,
+				001437CB180FBC370085B817 /* TableViewController.m */,
+				001437CC180FBC370085B817 /* TableViewController.xib */,
 				001437AC180FBBCC0085B817 /* Supporting Files */,
 			);
 			path = Table;
@@ -163,7 +163,7 @@
 				001437B8180FBBCC0085B817 /* Default.png in Resources */,
 				001437BA180FBBCC0085B817 /* Default@2x.png in Resources */,
 				001437BC180FBBCC0085B817 /* Default-568h@2x.png in Resources */,
-				001437BF180FBBCC0085B817 /* MainStoryboard.storyboard in Resources */,
+				001437CE180FBC370085B817 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +176,7 @@
 			files = (
 				001437B2180FBBCC0085B817 /* main.m in Sources */,
 				001437B6180FBBCC0085B817 /* TableAppDelegate.m in Sources */,
-				001437C2180FBBCC0085B817 /* TableViewController.m in Sources */,
+				001437CD180FBC370085B817 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				001437AF180FBBCC0085B817 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		001437BD180FBBCC0085B817 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				001437BE180FBBCC0085B817 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

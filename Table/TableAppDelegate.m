@@ -7,12 +7,18 @@
 //
 
 #import "TableAppDelegate.h"
+#import "TableViewController.h"
 
 @implementation TableAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.tableViewController = [[TableViewController alloc] initWithNibName:@"TableViewController" bundle:nil];
+    
+    self.window.rootViewController = self.tableViewController;
+    
     return YES;
 }
 							
